@@ -40,7 +40,7 @@ This project provisions a **secure, scalable, and highly available** web applica
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](.screenshots/arch.png)
+![Architecture Diagram](screenshots/arch.png)
 
 
 
@@ -194,7 +194,7 @@ ALB_DNS=$(terraform output -raw alb_dns_name)
 curl http://$ALB_DNS
 
 # Expected output: "Hello, World from ASG <hostname>"
-![Application Output](.screenshots/alb.png)
+![Application Output](screenshots/alb.png)
 ```
 
 ### **2. Test Auto Scaling**
@@ -215,7 +215,7 @@ aws s3 ls s3://<bucket-name>
 
 ### **Screenshot Example:**
 
-![Application Output](.screenshots/outputs3.png)
+![Application Output](screenshots/s3output.png)
 
 ---
 
