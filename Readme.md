@@ -188,14 +188,17 @@ After deployment, you'll receive:
 ### **1. Test Load Balancer**
 ```bash
 # Get ALB DNS from outputs
-ALB_DNS=$(terraform output -raw alb_dns_name)
+ALB_DNS=alb...
 
 # Test HTTP endpoint
 curl http://$ALB_DNS
 
 # Expected output: "Hello, World from ASG <hostname>"
-![Application Output](screenshots/alb.png)
+
+
 ```
+![Application Output](screenshots/alb.png)
+
 
 ### **2. Test Auto Scaling**
 ```bash
