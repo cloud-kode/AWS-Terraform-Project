@@ -40,7 +40,7 @@ This project provisions a **secure, scalable, and highly available** web applica
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](screenshots/arch.png)
+![Architecture Diagram](screenshots/cloudkode.png)
 
 
 
@@ -99,8 +99,8 @@ aws configure list
 
 ### **1. Clone the Repository**
 ```bash
-git clone <your-repo-url>
-cd <project-directory>
+git clone https://github.com/cloud-kode/AWS-Terraform-Project.git
+cd AWS-Terraform-Project
 ```
 
 ### **2. Initialize Terraform**
@@ -272,6 +272,6 @@ terraform destroy
 
 **⭐ Star this repo if you find it helpful! ⭐**
 
-Made with ❤️ by CloudKode
+Made with ❤️ by CloudKode :)
 
 </div>
