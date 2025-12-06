@@ -21,7 +21,9 @@ resource "aws_lb_target_group" "tg" {
     protocol = "HTTP"
   }
 
-  tags = { Name = "TG-cloudkode" }
+  tags = {
+     Name = "TG-cloudkode"
+  }
 }
 
 # Listener
